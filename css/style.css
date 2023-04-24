@@ -1,0 +1,178 @@
+html,
+body {
+    background-repeat: no-repeat;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(to right,#cce4ff, #ffe6f1);
+    background-position: center;
+    overflow-x: hidden !important;
+}
+
+
+
+.nav-butn {
+    margin-right: 2rem;
+}
+
+.nav-butn a {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    margin-top: 2rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 0.375rem;
+    background-color: #fff;
+}
+
+.nav-butn i{
+    font-size: 20px;
+}
+
+.profile-img img {
+    margin-top: 5rem;
+    width: 250px;
+    border-radius: 150px !important;
+}
+.title-name h1{
+    font-weight: 600;
+    font-size: 1.625rem;
+    margin-top: 1.5rem;
+}
+.social-icon ul{
+    list-style: none;
+    display: inline-flex;
+    margin-left: -2rem;
+}
+.social-icon li{
+    margin:0 1rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 40px;
+    padding: 0px;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+.cv-butn{
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: none;
+    transition-timing-function: linear;
+    border-radius: 35px;
+    transition-duration: 200ms;
+    background-image: linear-gradient(to right,#61a7f7, #f868a9);
+}
+.cv-butn:hover{
+    background-image: linear-gradient(to left,#61a7f7, #f868a9);
+}
+.nav-butn a:hover{
+    background-image: linear-gradient(to left,#61a7f7, #f868a9);
+    color: #fff;
+}
+.bg-tab{
+    background-color: white;
+    border-radius: 20px;
+}
+.tab-title{
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+}
+.tab-title span{
+    position: absolute;
+    margin-left: 12%;
+    width: 21rem;
+    height: 0.125rem;
+    background-color: red;
+    border-radius: 0.375rem;
+}
+.about-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+.personal-info span{
+    font-size:22px;
+    font-weight: 500;
+}
+.personal-info i{
+    border-radius: 20px;
+    width: 2.5rem;
+    font-size: 20px;
+    box-shadow: rgb(129 125 125 / 60%) 0px 5px 15px;
+    background-color: white;
+    height: 2.5rem;
+    text-align: center;
+    padding: 11px;
+}
+.con-tab p{
+    margin-left: 3rem;
+    font-weight: 500;
+        font-size: 1.125rem;
+}
+@media (max-width:768px) {
+    .tab-title span{
+        margin-left: 0%;
+        width: 7rem;
+    }
+    .tab-title{
+       padding: 2rem;
+    }
+    .personal-info span {
+        font-size: 19px;}
+        .con-tab p {
+            font-size: 16px;
+        }
+}
+
+.con-tab i{
+        font-size:40px;
+}
+.form-tab{
+    border: none;
+    border-bottom: 2px solid black;
+    font-style: 20px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    line-height: 3rem;
+    width: 100%;
+}
+.con-tab h4{
+   color: #44566c;
+}
+.sen-btn{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+    background: transparent;
+    width: 9rem;
+}
+.sen-btn:hover{
+    background-image: linear-gradient(to right,#61a7f7, #f868a9); 
+    color: white;
+}
+.error{
+    color: red;
+}
+
+.zoom-thumbnail {
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+    transform: scale(1);
+  }
+  .zoom-thumbnail:hover {
+    transform: scale(1.1);
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+  }
+  .ftr{
+    padding: 15px 0 3px 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+  }
